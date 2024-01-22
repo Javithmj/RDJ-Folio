@@ -1,0 +1,61 @@
+*{
+    margin: 0
+    padding 0;
+}
+.changecontent::after{
+    content: '';
+   
+    animation: changetext 20s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "You Need To Know What To Do When";}
+    25%{content: "I Just Think It Is good Too Be ";}
+    50%{content: "You Have To See Failure As The  ";}
+    75%{content: "Discipline For Me Is About Respect. ";}
+    100%{content: "Life Is Just So Painful And Messy And ";} 
+     
+    
+}
+
+.change_content::after{
+    content: '';
+   
+    animation: changetest 20s infinite linear;
+}
+@keyframes changetest {
+    0%{content: "The Sun Is Not Shing";}
+    25%{content: "confident. If I'm Not On My Team  ";}
+    50%{content: "Beginning And The Middle, But Never ";}
+    75%{content: "It's Not Even ABout Self-Respect; ";}
+    100%{content: " Hard And Worth It And All ";}
+
+    
+}
+.changcontent::after{
+    content: '';
+   
+    animation: change 20s infinite linear;
+}
+@keyframes change {
+    0%{content: "";}
+    25%{content: "Why Should Anybody Else Be? ";}
+    50%{content: "Entertain It As An End";}
+    75%{content: "It's About Respect For Life And ";}
+    100%{content: "That Stuff";}
+
+    
+}
+.change::after{
+    content: '';
+   
+    animation: chang 20s infinite linear;
+}
+@keyframes chang {
+    0%{content: "";}
+    25%{content: "  ";}
+    50%{content: "";}
+    75%{content: " All It Offers";}
+    100%{content: "";}
+
+    
+}
